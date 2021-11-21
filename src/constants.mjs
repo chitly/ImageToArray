@@ -9,13 +9,20 @@ export const COLORS = {
 };
 
 export const COLOR_PALLETTE = {
+  // Black: [0, 0, 0],
+  // White: [255, 255, 255],
+  // Green: [0, 128, 2],
+  // Blue: [8, 0, 255],
+  // Red: [255, 1, 1],
+  // Yellow: [255, 255, 0],
+  // Orange: [255, 170, 1],
   Black: [0, 0, 0],
-  White: [255, 255, 255],
-  Green: [0, 128, 2],
-  Blue: [8, 0, 255],
-  Red: [255, 1, 1],
+  Blue: [0, 0, 255],
+  Red: [255, 0, 0],
+  Green: [0, 255, 0],
+  Orange: [255, 128, 0],
   Yellow: [255, 255, 0],
-  Orange: [255, 170, 1],
+  White: [255, 255, 255]
 };
 
 export const COLOR_MAPPING = {
