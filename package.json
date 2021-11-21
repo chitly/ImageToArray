@@ -1,0 +1,11 @@
+{
+  "name": "image-to-array",
+  "version": "1.0.0",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "get-pixels": "^3.3.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
