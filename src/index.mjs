@@ -1,3 +1,4 @@
+import fs from "fs";
 import getPixels from "get-pixels";
 import { COLORS, COLOR_PALLETTE, COLOR_MAPPING } from "./constants.mjs";
 
@@ -37,4 +38,9 @@ getPixels("https://i.imgur.com/4O8VFQY.jpg", (err, pixels) => {
     }
   }
   console.log(outArr);
+  try {
+    fs.writeFileSync("out.txt", JSON.stringify(outArr));
+  } catch (err) {
+    console.error(err);
+  }
 });
